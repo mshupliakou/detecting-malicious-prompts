@@ -1,1 +1,39 @@
+# --- System & IDE ---
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+.env
+
+# --- Jupyter Notebooks ---
 .ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# --- Data (Hugging Face datasets are huge, don't commit them) ---
+data/
+*.csv
+*.json
+*.parquet
+*.pkl
+
+# --- LaTeX Build Artifacts (Trash generated during compilation) ---
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.bbl
+*.blg
+
+# --- Secrets (VERY IMPORTANT) ---
+huggingface_token.txt
+secrets.json

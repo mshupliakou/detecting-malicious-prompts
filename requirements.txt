@@ -1,0 +1,11 @@
+numpy
+pandas
+matplotlib
+seaborn
+plotly
+scikit-learn
+umap-learn
+torch
+transformers
+datasets
+huggingface_hub
